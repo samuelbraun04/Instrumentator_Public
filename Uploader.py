@@ -219,9 +219,9 @@ class Uploader():
                 except StaleElementReferenceException:
                     self.randomSleep()
         
-    def uploadToBeatstars(self, email, password, beatFolder, beatTitle, bpm, imageLocation, untaggedFileNoDrums='empty', stemsNoDrums='empty'):
+    def uploadTo*********(self, email, password, beatFolder, beatTitle, bpm, imageLocation, untaggedFileNoDrums='empty', stemsNoDrums='empty'):
 
-        self.driver.get('https://studio.beatstars.com/content/tracks/uploaded')
+        self.driver.get('************')
 
         #login
         try:
@@ -432,7 +432,7 @@ class Uploader():
                 break
             except StaleElementReferenceException:
                 self.randomSleep()   
-        self.addToTextfile(self.INFORMATION_TEXT_FILE, "beatstars tags: "+tags)
+        self.addToTextfile(self.INFORMATION_TEXT_FILE, "******** tags: "+tags)
 
         #input bpm
         while(1):
@@ -475,7 +475,7 @@ class Uploader():
             except StaleElementReferenceException:
                 self.randomSleep() 
         link = pyperclip.paste()
-        self.addToTextfile(self.INFORMATION_TEXT_FILE, "beatstars link: "+link)
+        self.addToTextfile(self.INFORMATION_TEXT_FILE, "********* link: "+link)
 
         return link
     
