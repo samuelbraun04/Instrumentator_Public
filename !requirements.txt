@@ -1,0 +1,13 @@
+audioread==2.1.9
+dawdreamer==0.6.10
+librosa==0.9.1
+music21==7.3.3
+openai==0.25.0
+Pillow==9.4.0
+pydub==0.25.1
+pyperclip==1.8.2
+requests==2.26.0
+scipy==1.8.1
+selenium==4.8.0
+torchvision==0.13.1
+undetected_chromedriver==3.2.1
