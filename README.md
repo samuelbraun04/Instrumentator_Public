@@ -14,3 +14,8 @@ To generate a drum-only instrumental, instrumentator needs:
 
 To generate a melody-only instrumental, instrumentator needs:
 - A melodic sample file with all desired stems included (preferably with bpm labeled in sample name)
+
+### EXAMPLE OUTPUTS:
+
+[No Melody Example](http://sndup.net/3rrc)
+[No Drums Example](http://sndup.net/njws)
